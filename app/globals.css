@@ -32,28 +32,37 @@
   --radius-2xl: calc(var(--radius) * 1.8);
 }
 
-/* Single-color palette built from Butter Yellow (#F7E38A) */
+/* Single-color palette built from Pistachio Green (#B5D39A) */
 :root {
   color-scheme: light;
-  --background: #fffcf0;
-  --foreground: #2f2a1c;
+  --background: #f8fbf3;
+  --foreground: #25301c;
   --card: #ffffff;
-  --card-foreground: #2f2a1c;
+  --card-foreground: #25301c;
   --popover: #ffffff;
-  --popover-foreground: #2f2a1c;
-  --primary: #f7e38a;
-  --primary-foreground: #2f2a1c;
-  --secondary: #fbf3cf;
-  --secondary-foreground: #2f2a1c;
-  --muted: #fbf3cf;
-  --muted-foreground: #6b604a;
-  --accent: #8a6d0f;
+  --popover-foreground: #25301c;
+  --primary: #b5d39a;
+  --primary-foreground: #25301c;
+  --secondary: #e6f0dc;
+  --secondary-foreground: #25301c;
+  --muted: #e6f0dc;
+  --muted-foreground: #56644a;
+  --accent: #4d6b34;
   --accent-foreground: #ffffff;
   --destructive: #b3261e;
-  --border: #efe4bd;
-  --input: #efe4bd;
-  --ring: #8a6d0f;
+  --border: #d9e6cc;
+  --input: #d9e6cc;
+  --ring: #4d6b34;
   --radius: 0.75rem;
+  --gingham: rgb(122 164 88 / 0.45);
+}
+
+@utility bg-gingham {
+  background-color: #ffffff;
+  background-image:
+    linear-gradient(90deg, var(--gingham) 50%, transparent 50%),
+    linear-gradient(var(--gingham) 50%, transparent 50%);
+  background-size: 18px 18px;
 }
 
 @layer base {
