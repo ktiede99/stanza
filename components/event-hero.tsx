@@ -15,6 +15,7 @@ export function EventHero() {
           R.S.V.P. by October 17th
         </a>
       </div>
+      <div className="bg-gingham h-6" aria-hidden="true" />
     </header>
   )
 }
