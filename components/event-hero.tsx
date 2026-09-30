@@ -10,7 +10,7 @@ export function EventHero() {
         </p>
         <a
           href="#rsvp"
-          className="mt-2 inline-flex items-center rounded-full bg-primary-foreground px-7 py-3 text-sm font-semibold text-primary transition-colors hover:bg-secondary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-foreground"
+          className="mt-2 inline-flex items-center rounded-full bg-primary-foreground px-7 py-3 text-sm font-semibold text-primary transition-colors hover:bg-primary-foreground/85 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-foreground"
         >
           R.S.V.P. by October 17th
         </a>

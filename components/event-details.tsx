@@ -18,7 +18,7 @@ export function EventDetails() {
             key={label}
             className="flex flex-col items-center gap-3 rounded-2xl border bg-card px-6 py-8 text-center"
           >
-            <span className="flex size-11 items-center justify-center rounded-full bg-secondary text-primary">
+            <span className="flex size-11 items-center justify-center rounded-full bg-secondary text-accent">
               <Icon className="size-5" aria-hidden="true" />
             </span>
             <dt className="text-xs font-semibold uppercase tracking-[0.18em] text-muted-foreground">

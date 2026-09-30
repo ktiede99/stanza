@@ -30,14 +30,14 @@ export function EventGoodies() {
               key={label}
               className="flex items-center gap-2 rounded-full border bg-card px-5 py-2.5 text-sm font-medium"
             >
-              <Icon className="size-4 text-primary" aria-hidden="true" />
+              <Icon className="size-4 text-accent" aria-hidden="true" />
               {label}
             </li>
           ))}
         </ul>
 
         <p className="mx-auto mt-12 flex max-w-xl items-center justify-center gap-2 text-center text-lg text-pretty">
-          <Heart className="size-5 shrink-0 text-primary" aria-hidden="true" />
+          <Heart className="size-5 shrink-0 text-accent" aria-hidden="true" />
           <span>Good vibes, laughter and friendship included with admission.</span>
         </p>
       </div>
