@@ -32,27 +32,27 @@
   --radius-2xl: calc(var(--radius) * 1.8);
 }
 
-/* Single-color palette built from Mocha (#A47864) */
+/* Single-color palette built from Butter Yellow (#F7E38A) */
 :root {
   color-scheme: light;
-  --background: #faf6f2;
-  --foreground: #3a2a22;
+  --background: #fffcf0;
+  --foreground: #2f2a1c;
   --card: #ffffff;
-  --card-foreground: #3a2a22;
+  --card-foreground: #2f2a1c;
   --popover: #ffffff;
-  --popover-foreground: #3a2a22;
-  --primary: #7a5646;
-  --primary-foreground: #faf6f2;
-  --secondary: #efe5de;
-  --secondary-foreground: #3a2a22;
-  --muted: #efe5de;
-  --muted-foreground: #6e5649;
-  --accent: #a47864;
+  --popover-foreground: #2f2a1c;
+  --primary: #f7e38a;
+  --primary-foreground: #2f2a1c;
+  --secondary: #fbf3cf;
+  --secondary-foreground: #2f2a1c;
+  --muted: #fbf3cf;
+  --muted-foreground: #6b604a;
+  --accent: #8a6d0f;
   --accent-foreground: #ffffff;
   --destructive: #b3261e;
-  --border: #e3d5cb;
-  --input: #e3d5cb;
-  --ring: #a47864;
+  --border: #efe4bd;
+  --input: #efe4bd;
+  --ring: #8a6d0f;
   --radius: 0.75rem;
 }
 
