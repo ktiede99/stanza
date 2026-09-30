@@ -21,18 +21,7 @@ export function EventGoodies() {
           </p>
         </div>
 
-        <div className="mt-12 grid gap-4 sm:grid-cols-2">
-          <div className="rounded-2xl bg-card p-8 text-center">
-            <p className="font-serif text-6xl text-primary">6</p>
-            <p className="mt-2 font-medium">handmade goodies to share</p>
-          </div>
-          <div className="rounded-2xl bg-card p-8 text-center">
-            <p className="font-serif text-6xl text-primary">6</p>
-            <p className="mt-2 font-medium">handmade goodies to take home</p>
-          </div>
-        </div>
-
-        <h3 className="mt-14 text-center text-sm font-semibold uppercase tracking-[0.18em] text-muted-foreground">
+        <h3 className="mt-12 text-center text-sm font-semibold uppercase tracking-[0.18em] text-muted-foreground">
           Goodies can include things like
         </h3>
         <ul className="mt-6 flex flex-wrap justify-center gap-3">

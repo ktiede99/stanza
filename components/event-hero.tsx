@@ -2,9 +2,6 @@ export function EventHero() {
   return (
     <header className="bg-primary text-primary-foreground">
       <div className="mx-auto flex max-w-3xl flex-col items-center gap-6 px-6 py-20 text-center md:py-28">
-        <p className="text-sm font-medium uppercase tracking-[0.2em] text-primary-foreground/80">
-          For Creative Souls
-        </p>
         <h1 className="font-serif text-5xl leading-tight text-balance md:text-7xl">
           {"Farmer's Market Party"}
         </h1>
